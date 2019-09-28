@@ -2,6 +2,9 @@
   background-color: darkslategray;
   color: white;
 }
+.seciones{
+  margin-top: 100px;
+}
 .option1 {
   text-align: center;
 }
@@ -27,7 +30,7 @@ li {
   height: auto;
 }
 p {
-  margin: 20px;
+  
   text-align: center;
   font-size: 40px;
   color: white;
@@ -40,17 +43,20 @@ p {
 h1 {
   color: white;
   text-align: center;
-  margin: 20px;
+  
   font-size: 40px;
 }
 /*estilos sección 2*/
+.section2{
+  margin-top: 50px;
+}
 h3 {
   color: black;
   text-align: center;
   font-size: 40px;
 }
 .title2 {
-  margin: 20px;
+ 
   text-align: center;
   font-size: 40px;
   color: black;
@@ -60,5 +66,74 @@ img{
   height: auto;
 }
 .portafolio{
+  padding: 50px;
+}
+/*estilos sección 3*/
+.section3{
+  background-color:lightseagreen;
+  margin-top: 50px;
+}
+.section3 h3{
+  color: white;
+}
+.texto{
+  text-align: justify;
+  color: white;
+  padding: 50px 100px 50px;
+  font-size: 25px;
+}
+.boton{
   text-align: center;
+  width: 300px;
+  height: 50px;
+  border: 1px solid white;
+  margin-bottom: 50px;
+}
+.boton p{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+
+}
+.boton:hover{
+  background-color: tomato;
+}
+/*estilos section 4*/
+.section4{
+  max-width: 800px;
+  height: auto;
+  margin: 5% auto;
+  padding: bottom 1rem ;
+  color: black;
+ 
+}
+.section4 h3{
+  color:black;
+}
+.form_cont{
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.input, .btn_submit{
+  padding: 1px;
+  margin: 1rem;
+  border: none;
+  border-bottom: solid #c8c8c8 1px;
+  transition: all 2s;
+  font-size: 20px;
+}
+.btn_submit{
+  background-color: teal;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+}
+.btn_submit:hover{
+  background-color: tomato;
+}
+.input:focus{
+  border-bottom: solid #f39b53 2px;
 }

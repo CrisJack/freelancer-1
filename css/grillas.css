@@ -6,6 +6,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
   text-align: justify;
+  border: none;
 }
 /*contenedor*/
 .container {
