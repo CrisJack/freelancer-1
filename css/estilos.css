@@ -1,0 +1,64 @@
+.titulo {
+  background-color: darkslategray;
+  color: white;
+}
+.option1 {
+  text-align: center;
+}
+.option1 li {
+  display: inline;
+  text-decoration: none;
+}
+li {
+  margin: 10px;
+}
+.option {
+  color: white;
+}
+
+.option:hover {
+  border-bottom: 1px solid rgb(238, 6, 6);
+  transition: all 1s;
+}
+/*estilos de seccion 1*/
+.section1 {
+  background-color: lightseagreen;
+  width: 100%;
+  height: auto;
+}
+p {
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+/*estilos sección 2*/
+h3 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+.title2 {
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+img{
+  width: 400px;
+  height: auto;
+}
+.portafolio{
+  text-align: center;
+}
